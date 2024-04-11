@@ -1,7 +1,2 @@
-pnpm i @vercel/analytics
-
-import { dev } from '$app/environment';
-import { inject } from '@vercel/analytics';
- 
-inject({ mode: dev ? 'development' : 'production' });
-
+npm i @vercel/analytics
+import { Analytics } from "@vercel/analytics/react"
